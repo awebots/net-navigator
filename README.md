@@ -19,7 +19,7 @@ Have a link to each of those sections in more detail
 - types of requests 3.
 - browser-rendering 4.
 
-2. Web application stack (what does the server do to return all that pretty data):
+2. Web application stack (what does the server do to return all that pretty data):  
 - server-side scripting and MVC
 - routing (regex matching)
 - Database queries (models, relationships)
@@ -30,7 +30,7 @@ Have a link to each of those sections in more detail
 3. HTTP Verbs
 Form submissions
 
-1. Internt stack, HTTPS and the TCP Handshake
+1. Internet stack, HTTPS and the TCP Handshake
 
 4. Long polling and websockets
 
