@@ -14,12 +14,12 @@ Trace the journey:
 - browser renders it
 
 Have a link to each of those sections in more detail
-- how does a browser request a URL physically (walk through DNS, routing tables, TCP/IP)
-- the server-side stack (What happens when a request hits a webserver) 2.
-- types of requests 3.
-- browser-rendering 4.
+- how does a browser request a URL physically (walk through DNS, routing tables, TCP/IP) (1)
+- the server-side stack (What happens when a request hits a webserver) (2)
+- types of requests (3)
+- browser-rendering (4)
 
-2. Web application stack (what does the server do to return all that pretty data):  
+(2) Web application stack (what does the server do to return all that pretty data): 
 - server-side scripting and MVC
 - routing (regex matching)
 - Database queries (models, relationships)
@@ -27,13 +27,14 @@ Have a link to each of those sections in more detail
 - templates
 - what is output from the server
 
-3. HTTP Verbs
+(3) HTTP Verbs  
 Form submissions
 
-1. Internet stack, HTTPS and the TCP Handshake
+(1) Internet stack, HTTPS and the TCP Handshake
 
-4. Long polling and websockets
+(4) Long polling and websockets
 
-4. Front-end/back-end:
+(4) Front-end/back-end:
+
 - SPAs
 - XML HTTP Request
