@@ -9,13 +9,13 @@ var babelify   = require('babelify');
 var source     = require('vinyl-source-stream');
 var webserver  = require('gulp-webserver');
 var sass = require('gulp-sass');
- 
+
 gulp.task('sass', function () {
   gulp.src('./src/scss/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./dist'));
 });
- 
+
 gulp.task('sass:watch', function () {
   gulp.watch('./src/scss/**/*.scss', ['sass']);
 });
@@ -48,6 +48,6 @@ gulp.task('watch', function () {
             livereload: true,
         }));
     gulp.start('default');
-    gulp.watch('./src/**/*.jsx', ['default']);
+    gulp.watch('./src/**/*.{js,jsx}', ['default']);
     gulp.start('sass:watch');
   });
