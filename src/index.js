@@ -17,9 +17,12 @@ class Users extends React.Component{
 }
 class App extends React.Component{
   render(){
-    return (<div>
-      App
+    return (<div className="head">
+      <h1>Net Navigator</h1>
+      <h3>Learn to navigate the innards of the web with Andy the bot</h3>
+      <div className="main">
       {this.props.children}
+      </div>
       <div>
         <Link to="/about">About</Link>
         <Link to="/users">Users</Link>

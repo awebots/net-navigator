@@ -1,3 +1,18 @@
-body{
+@import 'base';
+
+body {
   color: red;
+  font-family: $sspro;
+}
+
+.head {
+	text-align:center;
+
+	.main {
+		padding: 10em 20em;
+	}
+
+	a {
+		padding: 0 5em;
+	}
 }
